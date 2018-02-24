@@ -2,46 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_e9cb03e79448dc8dc8f1cf7e0c298d1ed5c16003.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.1.1_086a9282c21c6d4217ab4b22acb21afe951c16ba.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="true"
         revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_e9cb03e79448dc8dc8f1cf7e0c298d1ed5c16003/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="bd66f6dd42a0acc3286e0d9125330b91a86500a6">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ba703b40cc7bd572f76b5531d55f07f7ab74f027/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_28c3ac6c4dbcbafa2e2186bf9532ebb9442f4832/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-8.1.0_28c3ac6c4dbcbafa2e2186bf9532ebb9442f4832.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_6406a0190f46bd01c2904cd40d57cc7d47c50094/classes.dex" />
     </item>
     <item
         jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
@@ -51,81 +16,11 @@
         <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_b23ef08eebc537645fd5d0eceb046ae1bbfa90f6/classes.dex" />
     </item>
     <item
-        jar="/home/tomek/Projekty/Red7/app/streamscraper.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="bdc15ad9bc1aa5e858b1f980ba459493c813d01a">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/2/streamscraper_c740c165232d12332442967aad45b12a820c9cb5/classes.dex" />
-    </item>
-    <item
         jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
         <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_2bc16e8ba27df84d383d41e2b46fb31badf57bc9/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_b23ef08eebc537645fd5d0eceb046ae1bbfa90f6.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/streamscraper.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bdc15ad9bc1aa5e858b1f980ba459493c813d01a">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/streamscraper_c740c165232d12332442967aad45b12a820c9cb5.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_2bc16e8ba27df84d383d41e2b46fb31badf57bc9.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_ca2ea34e270fa3ef692ad27d1e6ece5a2255c41a/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appindexing-8.1.0_ca2ea34e270fa3ef692ad27d1e6ece5a2255c41a.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_6406a0190f46bd01c2904cd40d57cc7d47c50094/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/com.android.support-design-23.1.1_6406a0190f46bd01c2904cd40d57cc7d47c50094.jar" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="23.0.2"
-        sha1="6e346ece6361d5a67bec445c4c98d41295642122">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3665a9f554e5a381583e44c3b972b9172271a08c/classes.dex" />
-    </item>
-    <item
-        jar="/home/tomek/Projekty/Red7/app/jsoup-1.7.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="872693211fd68d1c4e116cf90021603207725e19">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/jsoup-1.7.2_90dee2ba185974a35df9a95619d318e03f5af175.jar" />
     </item>
     <item
         jar="/home/tomek/Projekty/Red7/app/jsoup-1.7.2.jar"
@@ -135,11 +30,39 @@
         <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.7.2_90dee2ba185974a35df9a95619d318e03f5af175/classes.dex" />
     </item>
     <item
-        jar="/home/tomek/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
         revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_02b5163054097f69f29a0aaf89baf584caa271e0.jar" />
+        sha1="cc1e161625fbed527c62b6d16d0bfcce1b8afe82">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3665a9f554e5a381583e44c3b972b9172271a08c/classes.dex" />
+    </item>
+    <item
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_e9cb03e79448dc8dc8f1cf7e0c298d1ed5c16003/classes.dex" />
+    </item>
+    <item
+        jar="/home/tomek/Projekty/Red7/app/streamscraper.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="bdc15ad9bc1aa5e858b1f980ba459493c813d01a">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/2/streamscraper_c740c165232d12332442967aad45b12a820c9cb5/classes.dex" />
+    </item>
+    <item
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_ca2ea34e270fa3ef692ad27d1e6ece5a2255c41a/classes.dex" />
+    </item>
+    <item
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_28c3ac6c4dbcbafa2e2186bf9532ebb9442f4832/classes.dex" />
     </item>
     <item
         jar="/home/tomek/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
@@ -147,6 +70,13 @@
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_02b5163054097f69f29a0aaf89baf584caa271e0/classes.dex" />
+    </item>
+    <item
+        jar="/home/tomek/Projekty/Red7/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7c05511c08e3cf8d44f8328915b26507f90e2258">
+        <dex dex="/home/tomek/Projekty/Red7/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ba703b40cc7bd572f76b5531d55f07f7ab74f027/classes.dex" />
     </item>
     <item
         jar="/home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"

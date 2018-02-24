@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:2:1-31:12
-	xmlns:android
-		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:2:11-69
 	package
 		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml
@@ -10,6 +8,8 @@ ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:2:1-31:12
 	android:versionName
 		INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
 		INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml
@@ -33,10 +33,10 @@ MERGED from [com.android.support:support-v4:23.1.1] /home/tomek/Projekty/Red7/ap
 MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.1.1] /home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-	android:supportsRtl
-		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
 		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:11:9-35
 	android:allowBackup
 		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
@@ -66,10 +66,10 @@ ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:21:17-77
 meta-data#com.google.android.gms.version
 ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:26:9-28:69
 MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/AndroidManifest.xml:21:9-23:69
-	android:name
-		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:27:13-58
 	android:value
 		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:28:13-66
+	android:name
+		ADDED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml:27:13-58
 uses-sdk
 INJECTED from /home/tomek/Projekty/Red7/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/tomek/Projekty/Red7/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43

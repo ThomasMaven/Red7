@@ -34,20 +34,20 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import eu.tomaka.radiored7.helpers.ShoutcastParser;
 import eu.tomaka.radiored7.helpers.ModifiedWebView;
+import eu.tomaka.radiored7.helpers.ShoutcastParser;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private MediaPlayer mp;
     private Button buttonSendGreetings;
     private Button buttonSeeSchedule;
-    private Spinner spinnerRaioChannel;
+    private Spinner spinnerRadioChannel;
     private HashMap<String, String> channelSCAddressHash = new HashMap<String, String>();
     private String chosenChannel = "Główny";
     private TextView streamGenre;
     private TextView streamTitle;
-    private String genereLabel;
+    private String generaLabel;
     private String titleLabel;
     private ImageView imageViewPlayPause;
     private Integer playerState = 0; // 0 = Stopped; 1 = Playing; 2 = Paused (currently not used)
@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        spinnerRaioChannel = (Spinner) findViewById(R.id.spinnerRaioChannel);
+        spinnerRadioChannel = (Spinner) findViewById(R.id.spinnerRaioChannel);
 
         imageViewPlayPause = (ImageView) findViewById(R.id.imageViewPlayPause);
         buttonSendGreetings = (Button) findViewById(R.id.buttonSendGreetings);
@@ -185,28 +185,27 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Log.d("PlayerState", playerState.toString());
 
         } catch (Exception e) {
-            Log.d("Red7", "Media player has alredy been released - do nothing");
+            Log.d("Red7", "Media player has already been released - do nothing");
         }
 
     }
 
     private void setupShoutcastAddresses() {
         channelSCAddressHash.put("Główny", "http://sluchaj.radiors.pl:19182");
-        channelSCAddressHash.put("Fly", "http://sluchaj.radiors.pl:19204");
         channelSCAddressHash.put("Disco-Polo", "http://sluchaj.radiors.pl:19206");
         List<String> channelList = new ArrayList(channelSCAddressHash.keySet());
         Collections.sort(channelList, Collections.reverseOrder());
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>
                 (this, R.layout.custom_spinner, channelList);
-        spinnerRaioChannel.setAdapter(dataAdapter);
+        spinnerRadioChannel.setAdapter(dataAdapter);
         addListenerOnSpinnerItemSelection();
 
     }
 
     public void addListenerOnSpinnerItemSelection() {
 
-        spinnerRaioChannel = (Spinner) findViewById(R.id.spinnerRaioChannel);
-        spinnerRaioChannel.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        spinnerRadioChannel = (Spinner) findViewById(R.id.spinnerRaioChannel);
+        spinnerRadioChannel.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -244,8 +243,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
     }
 
     private void startGreetingsWebView() {
-        Log.d("Red7", "tutaj");
-
         AlertDialog.Builder alert = new AlertDialog.Builder(this);
         alert.setTitle(getString(R.string.sendGreetings) + " " + getString(R.string.channel) + " " + chosenChannel);
 
@@ -302,7 +299,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         alert.show();
     }
 
-    //TODO: Move class to different file
     public class HeadphoneUnplugReceiver extends BroadcastReceiver {
 
         @Override
@@ -320,7 +316,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         @Override
         protected String doInBackground(String... params) {
             try {
-                genereLabel = new ShoutcastParser().getStreamGenere(channelSCAddressHash.get(chosenChannel));
+                generaLabel = new ShoutcastParser().getStreamGenere(channelSCAddressHash.get(chosenChannel));
                 titleLabel = new ShoutcastParser().getStreamTitle(channelSCAddressHash.get(chosenChannel));
             } catch (IOException e) {
                 e.printStackTrace();
@@ -335,7 +331,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         @Override
         protected void onPostExecute(String result) {
-            streamGenre.setText(getString(R.string.streamGenere) + " " + genereLabel);
+            streamGenre.setText(getString(R.string.streamGenere) + " " + generaLabel);
             streamTitle.setText(getString(R.string.streamTitle) + " " + titleLabel);
         }
 
